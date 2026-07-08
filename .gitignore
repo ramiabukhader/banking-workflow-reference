@@ -1,0 +1,15 @@
+# Database dumps / backups
+*.dump
+*.backup
+*.sql.gz
+
+# Local env / secrets
+.env
+*.pgpass
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
