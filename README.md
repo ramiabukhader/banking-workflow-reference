@@ -48,7 +48,8 @@ erDiagram
 
 The full attribute-level ERD is in [`docs/erd.md`](docs/erd.md); the business
 flow and governance rationale are in
-[`docs/business-flow.md`](docs/business-flow.md).
+[`docs/business-flow.md`](docs/business-flow.md). Definitions for the terms
+used across the model are in [`docs/glossary.md`](docs/glossary.md).
 
 ## Quick start
 
@@ -91,7 +92,8 @@ banking-workflow-reference/
 │   └── 03_views.sql       # reporting views
 └── docs/
     ├── erd.md             # attribute-level Mermaid ERD
-    └── business-flow.md   # lifecycle + governance principles
+    ├── business-flow.md   # lifecycle + governance principles
+    └── glossary.md        # case-management domain definitions
 ```
 
 ## Design highlights
